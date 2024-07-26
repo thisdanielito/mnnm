@@ -1,0 +1,35 @@
+nav img{
+    width: 80px;
+}
+nav .text-matricula{
+    color:#27bb9b;
+}
+#principal img{
+
+    max-height: 70vh;
+    object-fit: cover;
+}
+#principal{
+    position: relative;
+}
+#principal #contenido{
+    position:absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0,0, 0.5);
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+#principal .container,#principal .row{
+    width: 100%;
+    height: 100%;
+}
+
+#footer{
+    background-color: #112e4f;
+}
+#footer a{
+    text-decoration: none;
+    color: white;
+}
